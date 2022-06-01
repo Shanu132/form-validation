@@ -1,0 +1,60 @@
+
+.formcontainer{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 60px;
+    padding: 20px 70px;
+    border-radius: 15px;
+    background-color: rgb(232, 241, 241);
+}
+
+.label{
+    text-align: left;
+    font-size: 18px;
+}
+input, select{
+    height: 5vh;
+    border-radius: 3px;
+}
+#submit{
+    margin-top: 10px;
+    width: 105%;
+    background-color: rgba(16, 18, 95, 0.74);
+    color: white;
+    font-size: 15px;
+    height: 7.5vh;
+}
+p{
+    color: red;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.formmaincontainer{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+.datacontainer{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+ 
+@media (max-width:600px){
+    .formmaincontainer{
+        width: 100%;
+        height: auto;
+    }
+    .datacontainer{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
+#success{
+    color: green;
+}
