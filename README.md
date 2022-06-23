@@ -1,4 +1,3 @@
 # Form validation
 
-
-https://shanu132.github.io/swasthya-ai/
+http://Shanu132.github.io/form_validation
